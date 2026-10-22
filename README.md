@@ -1,13 +1,29 @@
-# 🛡️ ZeroTrust-Shield
+# ZeroTrust-Shield
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zerotrust-shield.streamlit.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+An AI-assisted Zero-Trust Network Security application engineered to analyze network telemetry, identify suspicious lateral movement, and recommend defensive firewall policies.
 
-An **AI-Powered Microsegmentation & Network Policy Engine** engineered for automated threat flow analysis and zero-trust firewall rule generation.
+Developed by NomaanOS-Dev.
 
-## 🌟 Key Capabilities
-* **Traffic Flow Analysis:** Detects lateral movement and anomalous connection requests.
-* **Firewall Rule Generation:** Automatically crafts `iptables` and cloud security group rules.
-* **Compliance & Reporting:** One-click exportable security assessment in Markdown and PDF.
+## 🚀 Key Features
 
-Developed as part of the **Sovereign AI Stack (SAS)** research initiative at **IHFC — IIT Delhi**.
+- **Network Telemetry Analysis:** Review connection logs and identify suspicious traffic patterns.
+- **Threat Assessment:** Generate risk assessments and defensive recommendations using OpenAI.
+- **Zero-Trust Guidance:** Identify potentially unauthorized connections and recommend least-privilege controls.
+- **PDF Audit Reports:** Export security assessment reports for documentation and review.
+- **Interactive Dashboard:** Streamlit-based interface for security log analysis.
+
+## 🛠️ Tech Stack
+
+Python 3.x | Streamlit | OpenAI API | Pandas | ReportLab
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/NomaanOS-Dev/ZeroTrust-Shield.git
+cd ZeroTrust-Shield
+pip install -r requirements.txt
+streamlit run app.py
+
+Configure your OpenAI API key in the application sidebar.
+🛡️ Security Notice
+Use only on networks and telemetry you are authorized to analyze. AI-generated findings require human verification.
